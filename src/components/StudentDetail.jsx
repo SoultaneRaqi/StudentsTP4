@@ -14,12 +14,12 @@ const StudentDetail = () => {
 
   return (
     <div style={{ padding: '20px', border: '1px solid #333' }}>
-      <h2>Détails de l'étudiant</h2>
+      <h2>Details d etudiant</h2>
       <p><strong>ID :</strong> {student.id}</p>
       <p><strong>Nom :</strong> {student.name}</p>
       <p><strong>Niveau :</strong> {student.level}</p>
       <br />
-      <Link to="/">Retour à la liste</Link>
+      <Link to="/">Retour a la liste</Link>
     </div>
   );
 };
